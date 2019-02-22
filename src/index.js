@@ -1,4 +1,4 @@
-module.exports = function check(str, bracketsConfig) {
+module.exports = function check(str, bracket) {
     if(str.length%2!=0){
         return false;
     }
